@@ -1,0 +1,19 @@
+Sep 22 00:17:00.152 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Sep 22 00:17:00.152 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 1658.
+Sep 22 00:17:00.183 HYPERVISOR: exec_cmd: hypervisor version 
+Sep 22 00:17:00.183 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Rafa\GNS3\projects\rafa\project-files\dynamips 
+Sep 22 00:17:00.183 GENERAL: working_dir=C:\Users\Rafa\GNS3\projects\rafa\project-files\dynamips
+Sep 22 00:17:00.183 HYPERVISOR: exec_cmd: ethsw create Ethernetswitch-1 
+Sep 22 00:17:00.290 HYPERVISOR: exec_cmd: nio create_udp udp-7c663fd8-6102-428b-aaa3-34e62650b726 10000 127.0.0.1 10001 
+Sep 22 00:17:00.294 HYPERVISOR: exec_cmd: ethsw add_nio Ethernetswitch-1 udp-7c663fd8-6102-428b-aaa3-34e62650b726 
+Sep 22 00:17:00.298 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-1 udp-7c663fd8-6102-428b-aaa3-34e62650b726 1 
+Sep 22 00:17:00.341 HYPERVISOR: exec_cmd: nio create_udp udp-02a769ef-09c0-447c-80ee-6cd5e3a41359 10003 127.0.0.1 10002 
+Sep 22 00:17:00.341 HYPERVISOR: exec_cmd: ethsw add_nio Ethernetswitch-1 udp-02a769ef-09c0-447c-80ee-6cd5e3a41359 
+Sep 22 00:17:00.345 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-1 udp-02a769ef-09c0-447c-80ee-6cd5e3a41359 1 
+Sep 22 00:17:04.684 HYPERVISOR: exec_cmd: ethsw remove_nio Ethernetswitch-1 udp-02a769ef-09c0-447c-80ee-6cd5e3a41359 
+Sep 22 00:17:04.699 HYPERVISOR: exec_cmd: nio delete udp-02a769ef-09c0-447c-80ee-6cd5e3a41359 
+Sep 22 00:18:17.893 HYPERVISOR: exec_cmd: nio create_udp udp-467911c6-7883-4509-b10d-64192cdc6556 10003 127.0.0.1 10002 
+Sep 22 00:18:17.893 HYPERVISOR: exec_cmd: ethsw add_nio Ethernetswitch-1 udp-467911c6-7883-4509-b10d-64192cdc6556 
+Sep 22 00:18:17.908 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-1 udp-467911c6-7883-4509-b10d-64192cdc6556 1 
+Sep 22 00:22:22.065 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-1 udp-467911c6-7883-4509-b10d-64192cdc6556 1 
+Sep 22 00:22:22.066 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-1 udp-7c663fd8-6102-428b-aaa3-34e62650b726 1 
